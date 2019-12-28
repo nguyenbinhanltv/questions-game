@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(to left, #fad0c4 0%, #ffd1ff 100%);
+    font-family: "Lato", Arial, sans-serif;
+}
+  
+.card {
+    margin: 0 auto;
+    width: 85vw;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+  
+.card:hover {
+    box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add-data {
+    margin: 0 auto;
+    width: 30vw;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.add-data:hover {
+    box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add-data1 {
+    margin: 0 auto;
+    width: 30vw;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+  
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+  
+button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+}
+  
+.button01 {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+  
+.button01:hover {
+    background-color: #008cba; /* Green */
+    color: white;
+}
+  
+.button02 {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+  
+.button02:hover {
+    background-color: #f44336; /* Green */
+    color: white;
+}
+  

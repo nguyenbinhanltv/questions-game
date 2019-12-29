@@ -39,6 +39,7 @@ let createData = function() {
 
 create.onclick = function() {
     createData();
+    location.reload();
     localStorage.setItem("TreeUtils", JSON.stringify(LIST));
 };
 
@@ -90,4 +91,5 @@ right.onclick = function() {
 
 deleteAll.onclick = function() {
     localStorage.removeItem("TreeUtils");
+    location.reload();
 }

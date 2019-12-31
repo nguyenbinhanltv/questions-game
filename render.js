@@ -76,9 +76,6 @@ let updateAnswer = function() {
     }
 }
 
-updateQuestion();
-updateAnswer();
-
 left.onclick = function() {
     updateQuestion();
     updateAnswer();

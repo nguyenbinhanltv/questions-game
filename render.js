@@ -9,6 +9,8 @@ const inputQuestion = document.getElementById('input-question');
 const inputAnswer = document.getElementById('input-answer');
 
 const create = document.getElementById('create');
+const createStory = document.getElementById('create-story');
+const hidden = document.querySelector('.add-data');
 const deleteAll = document.getElementById('delete-all');
 
 //Tạo LIST
@@ -92,4 +94,9 @@ right.onclick = function() {
 deleteAll.onclick = function() {
     localStorage.removeItem("TreeUtils");
     location.reload();
+}
+
+createStory.onclick = function() {
+    if(hidden.style.display === 'block') hidden.style.display = 'none';
+    else hidden.style.display = 'block';
 }

@@ -19,6 +19,7 @@ body {
 
 .add-data {
     margin: 0 auto;
+    margin-top: 1%;
     width: 30vw;
     background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     border-radius: 20px;
@@ -80,5 +81,20 @@ button {
 .button02:hover {
     background-color: #f44336; /* Green */
     color: white;
+}
+
+.button03 {
+    margin: 0 auto;
+    margin-top: 5%;
+    display: block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button03:hover {
+    background-color:#84fab0;
+    color: white;
+    box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
 }
   
